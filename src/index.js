@@ -89,5 +89,5 @@ function makeImageTagString(url){
 // CHALLENGE 2 AND 4 extra
 function addLI(breed){
   let dogUL = document.querySelector("#dog-breeds")
-  dogUL.innerHTML += `<li data-info="breed">${breed}!</li>`
+  dogUL.innerHTML += `<li data-info="breed">${breed}</li>`
 }
